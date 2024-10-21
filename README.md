@@ -2,10 +2,10 @@
 Tools for processing password hashes made using Werkzeug, using PBKDF2-HMAC-SHA256 hashing.
 
 This repo contains two scripts:
- * `crack_pbkdf2_hashes.py`
+ * `crack_pbkdf2-sha256_hashes.py`
    Attempts to crack hashes directly
- * `transform_pbkdf2_hashes.py`
-   Transforms hashes into a format usable by hashcat.
+ * `transform_pbkdf2-sha256_hashes.py`
+   Transforms hashes into a format usable by **hashcat**.
 
 ## Usage:
 
@@ -34,6 +34,7 @@ Input hashes file should have lines in the format `pbkdf2:sha256:iterations$salt
 `pbkdf2:sha256:600000$NJmGroHCwx0TCl0z$c10a63e2d93316572ba9d01d674fd720f1df549eb5cf5a35491aec6773d55387`
 
 Will ignore lines that start with a `#` comment.
+
 
 
 

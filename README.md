@@ -9,7 +9,7 @@ This repo contains two scripts:
 
 ## Usage:
 
-### crack_hashes.py
+### crack_pbkdf2-sha256_hashes.py
 
 ```bash
 crack_pbkdf2-sha256_hashes.py <wordlist> <hashes_file> [num_iterations] [key_length]
@@ -23,7 +23,7 @@ Defaults to **50,000 iterations** and a key **length of 50**
 
 > Don't use too large of a wordlist. This program is **NOT memory optimized!**. I wouldn't go past 20,000ish lines
 
-### transform_hashes.py
+### transform_pbkdf2-sha256_hashes.py
 
 ```bash
 transform_pbkdf2-sha256_hashes.py <input_hashes_filepath> <output_hashes_filepath>

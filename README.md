@@ -7,6 +7,8 @@ This repo contains two scripts:
  * `transform_pbkdf2-sha256_hashes.py`
    Transforms hashes into a format usable by **hashcat**.
 
+
+
 ## Usage:
 
 ### crack_pbkdf2-sha256_hashes.py
@@ -22,6 +24,7 @@ Hashes file should have lines in the format `username:password_hash:salt`, like 
 Defaults to **50,000 iterations** and a key **length of 50**
 
 > Don't use too large of a wordlist. This program is **NOT memory optimized!**. I wouldn't go past 20,000ish lines
+
 
 ### transform_pbkdf2-sha256_hashes.py
 

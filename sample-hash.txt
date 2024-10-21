@@ -1,0 +1,2 @@
+# This is the hash of the password "rockyou"
+pbkdf2:sha256:600000$NJmGroHCwx0TCl0z$c10a63e2d93316572ba9d01d674fd720f1df549eb5cf5a35491aec6773d55387
